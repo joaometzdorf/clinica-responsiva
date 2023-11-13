@@ -1,0 +1,41 @@
+.secao__perfil {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.secao__perfil img {
+    border-radius: 50%;
+    width: 60px;
+    max-width: 120px; 
+}
+.secao__perfil h1 {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.secao__perfil span {
+    font-weight: normal;
+    color: var(--cinza-claro);
+    font-size: .9rem;
+}
+
+.secao__perfil h1,
+.secao__perfil span {
+    padding-left: 1rem;
+}
+
+@media (min-width: 768px) {
+
+    .secao__perfil img {
+        min-width: 75px;
+    }
+
+}
+
+@media (min-width: 1424px) {
+
+    .secao__perfil img {
+        min-width: 85px;
+    }
+
+}
