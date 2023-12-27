@@ -6,7 +6,7 @@
 
 ### Screenshot
 
-![](./clinica-responsiva)
+![](./clinica-responsiva.png)
 
 ### Links
 
